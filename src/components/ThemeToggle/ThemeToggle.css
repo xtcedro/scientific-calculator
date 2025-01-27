@@ -1,0 +1,55 @@
+/* ThemeToggle.css */
+
+/* Toggle Container */
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .theme-toggle:hover {
+    background-color: #e9e9e9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme-toggle span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Toggle Switch */
+  .theme-switch {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .theme-switch::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .theme-switch.active {
+    background-color: #4CAF50;
+  }
+  
+  .theme-switch.active::before {
+    transform: translateX(20px);
+  }

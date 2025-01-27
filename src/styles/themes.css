@@ -1,0 +1,47 @@
+/* theme.css */
+
+/* Light Theme */
+body.light-theme {
+    --background-color: #ffffff;
+    --text-color: #333333;
+    --header-background: #f4f4f4;
+    --button-background: #4CAF50;
+    --button-text-color: #ffffff;
+  }
+  
+  /* Dark Theme */
+  body.dark-theme {
+    --background-color: #333333;
+    --text-color: #f4f4f4;
+    --header-background: #444444;
+    --button-background: #4CAF50;
+    --button-text-color: #ffffff;
+  }
+  
+  /* Global Theme Variables */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  header {
+    background-color: var(--header-background);
+    padding: 10px 20px;
+  }
+  
+  button {
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,64 @@
+/* app.css */
+
+/* General App Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    transition: background-color var(--transition-medium), color var(--transition-medium);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-medium);
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  main {
+    padding: var(--spacing-large);
+  }
+  
+  footer {
+    text-align: center;
+    padding: var(--spacing-medium);
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Utility Classes */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-medium);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    main {
+      padding: var(--spacing-medium);
+    }
+  
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
