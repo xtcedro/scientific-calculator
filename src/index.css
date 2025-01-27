@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  nav a:hover {
+    background: #45a049;
+  }
+  
+  /* Section Styles */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #calculator-container,
+  #graph-container,
+  #history-container {
+    min-height: 150px;
+    border: 1px dashed #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+  }
+  
+  footer p {
+    margin: 0.5rem 0;
+  }  
